@@ -26,9 +26,9 @@ class Footer extends React.Component {
           <div>AllSparkTechnologies.in</div>
         </div>
         <div className="footer-first">
-          <NavLink to="https://www.allsparkhealth.com/">
+          <a href="https://www.allsparkhealth.com/">
             AllSpark Health Labs Bangalore
-          </NavLink>
+          </a>
         </div>
       </div>
     );

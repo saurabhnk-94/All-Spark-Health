@@ -37,6 +37,51 @@
     border: 1px solid black;
 }
 
+.home-third,
+.home-fourth,
+.home-fifth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    background-color: bisque;
+}
+
+.home-fourth {
+    background-color: lightblue;
+}
+
+.home-fifth {
+    display: flex;
+    flex-direction: row;
+    background-color: lightskyblue;
+}
+
+.home-sixth {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.cards-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+    background-color: lightblue;
+    color: darkblue;
+    margin: 10px
+}
+
 .footer-block {
     display: flex;
     flex-direction: row;

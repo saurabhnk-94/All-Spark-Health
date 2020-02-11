@@ -27,7 +27,7 @@ class Home extends React.Component {
             We build deep tech AI solutions for Enterprises to make <br />
             the operations autonomous.
           </div>
-          <div
+          <button
             style={{
               width: "200px",
               height: "50px",
@@ -36,17 +36,17 @@ class Home extends React.Component {
               marginTop: "50px",
               fontSize: "20px",
               marginLeft: "60%",
-              textAlign: "center"
+              border: "none"
             }}
           >
             Contact US
-          </div>
+          </button>
         </div>
         <div className="home-second">
           <div
             style={{ fontSize: "40px", margin: "30px", marginLeft: "100px" }}
           >
-            Enterprise scale AI Solutions
+            Powering Enterprise scale applications
           </div>
           <div
             style={{

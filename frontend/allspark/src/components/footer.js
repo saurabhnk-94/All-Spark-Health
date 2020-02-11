@@ -12,18 +12,18 @@ class Footer extends React.Component {
               About
             </NavLink>
        
-        <div>@2020 All Spark Technology</div>
+        <div style={{color:"#00008b"}}>@2020 All Spark Technology</div>
         </div>
         <div className="footer-first">
-          <div>AllSparkTechnologies.in</div>
+          <div style={{color:"#00008b", fontSize:"20px"}}>AllSparkTechnologies.in</div>
         </div>
         <div className="footer-first">
-          <div>Stay Connected</div>
-          <div>
+          <div style={{color:"#00008b", fontSize:"20px"}}>Stay Connected</div>
+          <div style={{padding:"10px", paddingLeft:0}}>
             Join our newsletter to receive our Technology <br />
             solutions letters by clicking on contact us.
           </div>
-          <div>AllSparkTechnologies.in</div>
+          <div style={{color:"#00008b", fontSize:"20px"}}>AllSparkTechnologies.in</div>
         </div>
         <div className="footer-first">
           <a href="https://www.allsparkhealth.com/">

@@ -8,7 +8,7 @@ class Header extends React.Component{
             <div className="header">
                 <div className="header-left">
                     <div style={{color:"red", fontSize:"20px"}}>AllSPARK</div>
-                    <div style={{color:"green", fontSize:"20px"}}>HEAL<span style={{fontSize:"20px"}}>+</span>H</div>
+                    <div style={{color:"green", fontSize:"20px", fontWeight:"bold"}}>HEAL<span style={{fontSize:"20px"}}>+</span>H</div>
                 </div>
                 <div className="header-right">
                     <NavLink to="" style={{textDecoration:"none"}}>

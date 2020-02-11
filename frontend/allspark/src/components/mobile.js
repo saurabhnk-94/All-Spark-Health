@@ -6,8 +6,8 @@ class Mobile extends React.Component {
   render() {
     return (
       <div className="mobile-page">
-        <h2 style={{color:"pink"}}>AI Telephone for health</h2>
-        <p>
+        <h2 style={{color:"pink" , fontSize:"50px"}}>AI Telephone for health</h2>
+        <p style={{margin: 0}}>
           <strong>
             Kae Children’s Hospital is on a mission. As one of the largest
             pediatric medical providers in the UAE, it is focused on pioneering
@@ -16,7 +16,7 @@ class Mobile extends React.Component {
             today and healthier tomorrow.
           </strong>
         </p>
-        <h3>Helping children stay healthy</h3>
+        <h3 style={{fontSize:"25px"}}>Helping children stay healthy</h3>
         <p style={{color:"#313B67"}}>
           The work of the Kae Children's Hospital is no small task. It takes a
           team of 370 beds, 500 physicians, 95 residents in pediatrics and
@@ -32,7 +32,7 @@ class Mobile extends React.Component {
           directly meet the needs of patients, so everyone receives exceptional
           care.
         </p>
-        <h3>Legacy system cracked under the load</h3>
+        <h3 style={{fontSize:"25px"}}>Legacy system cracked under the load</h3>
         <p style={{color:"#313B67"}}>
           Kae Children’s Hospital went online with its first phone system in
           2006—a single Windows PC with a simple IVR dialogue, and phone lines.
@@ -68,7 +68,7 @@ class Mobile extends React.Component {
           stumbled on something the hospital—and its patients’ families—could
           truly use.
         </p>
-        <h3>All Sparks Technologies a massive improvement</h3>
+        <h3 style={{fontSize:"25px"}}>All Sparks Technologies a massive improvement</h3>
         <p style={{color:"#313B67"}}>
           “All Sparks Technologies has been a massive improvement over the old
           system I built with a phone card, landlines, a server, and MS-TAPI,”
@@ -103,7 +103,7 @@ class Mobile extends React.Component {
           scheduled for an appointment in any of their 5 clinic locations,
           informing them of changes in opening hours.
         </p>
-        <h3>The right message at the right time</h3>
+        <h3 style={{fontSize:"25px"}}>The right message at the right time</h3>
         <p style={{color:"#313B67"}}>
           “Once we got All Sparks Technologies up and running, it requires very
           little upkeep. We’re happy with how the system works and we haven’t

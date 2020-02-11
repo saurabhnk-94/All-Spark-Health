@@ -5,6 +5,7 @@
     height: 70px;
     border: 1px solid black;
     align-items: center;
+    background-color: lightgrey;
 }
 
 .header-left {
@@ -88,6 +89,7 @@
     justify-content: space-evenly;
     padding: 20px;
     border: 1px solid black;
+    margin-top: 20px;
 }
 
 .footer-first {

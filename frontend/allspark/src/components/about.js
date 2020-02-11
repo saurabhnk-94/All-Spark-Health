@@ -1,7 +1,14 @@
 import React from "react";
 import "./components.css";
 
+
 class About extends React.Component {
+
+
+  componentDidMount() {
+    document.title = 'About | All Spark Health</title'
+  }
+
   render() {
     return (
       <div className="about-page">

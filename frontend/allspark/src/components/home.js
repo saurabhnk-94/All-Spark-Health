@@ -2,6 +2,12 @@ import React from "react";
 import "./components.css";
 
 class Home extends React.Component {
+
+  componentDidMount() {
+    document.title = 'All Spark Labs | All Spark Health</title'
+  }
+
+
   render() {
     return (
       <div className="home-page">

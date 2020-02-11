@@ -3,6 +3,12 @@ import "./components.css";
 
 
 class Mobile extends React.Component {
+
+  componentDidMount() {
+    document.title = 'Mobile | All Spark Health</title'
+  }
+
+
   render() {
     return (
       <div className="mobile-page">

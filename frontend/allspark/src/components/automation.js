@@ -2,6 +2,11 @@ import React from "react";
 import "./components.css";
 
 class Automation extends React.Component {
+
+  componentDidMount() {
+    document.title = 'Automation | All Spark Health</title'
+  }
+
   render() {
     return (
       <div className="automation-page">
